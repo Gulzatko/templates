@@ -1,0 +1,194 @@
+body{
+    width: 100%;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* Navbar styling */
+.bgImg{
+    background-image: url('/images/navbar.jpeg');
+    background-color: black;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.red{
+    color: white;
+}
+.hero-btn{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* salads styling */
+.salads{
+    border:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.salads img{
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius:50% ;
+    border: none;
+    box-shadow: 5px 10px #fcfafa;
+   
+}
+.salads .card-body{
+    width: 45%;
+}
+
+/* healthy styling */
+.healthy{
+    background-color: rgba(238,205,84,255);
+}
+.healthy .col{
+    width: 45%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin-left: 50px 20px;
+    color: whitesmoke;
+
+}
+/* learn cooking section  */
+
+.carousel-inner {
+  height: 350px;
+}
+
+.learn-text{
+    margin-top: 100px;
+    justify-content: flex-start;
+}
+.carousel-control-prev{
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom:200px;
+
+}
+ .carousel-control-next{
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom:200px;
+ }
+ .carousel-dark{
+    flex-direction: row;
+    justify-content: center;
+ }
+.container-learn{
+   margin-bottom: 30px;
+}
+.carousel-indicators{
+    margin-top:0;
+    margin-bottom:40px;
+}
+.learn-btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+/* ice cream section  */
+.ice-cream{
+    background-color: rgba(251,200,57,255);
+    height: 500px;
+}
+.ice-cream-img{
+ background-image: url("images/ice-cream.jpeg");
+ height: 100%;
+ background-size:cover ;
+}
+.card-ice-cream{
+    border: none;
+    margin-top: 200px;
+    margin-left: 120px;
+    color: white;
+}
+.card-fresh{
+    border: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.thirty{
+    border: 2px solid rgb(58, 136, 58);
+    background: rgb(71, 152, 71);
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.thirty h1{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.fresh-img img{
+border-start-start-radius:50%;
+border-end-end-radius: 50%;
+border-top-left-radius: 50%;
+margin-bottom:50px;
+}
+
+/* organic started  */
+.organic{
+    border: none;
+    margin-top: 250px;
+    margin-bottom: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size:xx-large;
+    
+}
+.organic-img img{
+    border-top-right-radius: 50%;
+    margin-top: 700px;
+
+}
+.organic-img1{
+    background-image: url('/images/organic2.jpeg');
+    border-bottom-left-radius: 50%;
+    background-repeat: no-repeat;
+    margin-bottom: 500px;
+    
+}
+/* subscribe style  */
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(238,205,84,255);
+}
+
+.card-subscribe{
+    margin-bottom: 150px;
+    margin-top: 100px;
+    color: #fcfafa;
+}
+.card-body-subscribe input{
+    border: 2px solid green;
+    background-color: rgba(238,205,84,255);
+    border-radius: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight:bolder;
+}

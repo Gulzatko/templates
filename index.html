@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- Section-1 -->
+  <div class="card position-relative bgImg">
+    <!-- <img src="/images/fruits.jpeg" class="card-img" alt="..." /> -->
+    <div class="card-img-overlay">
+      <nav class="navbar navbar-expand-lg text-center col col-lg-2  ">
+        <div class="container-fluid ">
+          <form class="d-flex rounded position-absolute top-0 start-0 " style="border:solid 2px white;" role="search">
+            <input class="form-control me-2 border border-0" style="background: none;color:white" type="search"
+              placeholder="Search " aria-label="Search">
+            <i class="fa-solid fa-magnifying-glass fa-lg align-self-center red"></i>
+          </form>
+          <button class="navbar-toggler position-absolute top-0 end-0 bg-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon bg-none"></span>
+          </button>
+      </nav>
+      <div class="container position-absolute top-50 start-50 translate-middle g-3">
+        <div class="text-center" style="color: white;">
+          <h1 class="card-title display-1">Natural Food</h1>
+          <p class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+            ratione? Delectus assumenda modi veritatis aliquam autem libero
+            cupiditate distinctio incidunt. Tempora deserunt ullam, beatae
+            commodi natus saepe dolore iste est.
+          </p>
+        </div>
+        <div class="hero-btn mt-5">
+          <button type="button" class="btn btn-success px-5 mx-3" style="border-radius:20px;">Read more</button>
+          <button type="button" class="btn btn-light px-4 mx-3" style="border-radius:20px;"><i
+              class="bi bi-arrow-down-circle"></i> View All recipes</button>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- end of Section-1 -->
+
+  <!-- Section -2 for salads -->
+  <section class="m-5">
+    <div class="container">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="card mb-5 salads">
+
+              <img src="/images/ceasar.jpeg" class="card-img-top" alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title">Ceasar salad</h5>
+                <b>
+                  <h2>$20</h2>
+                </b>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, dolore.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div class="card mb-5 salads">
+
+              <img src="/images/greek.jpeg" class="card-img-top" alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title">Greek salad</h5>
+                <b>
+                  <h2>$45</h2>
+                </b>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, incidunt!</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-5 salads">
+
+              <img src="/images/mexican.jpeg" class="card-img-top " alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title">Mexican salad</h5>
+                <b>
+                  <h2>$13</h2>
+                </b>
+                <p class="card-text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, corrupti?</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-5 salads">
+              <img src="/images/ricotta.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Classic Ricotta</h5>
+                <b>
+                  <h2>$24</h2>
+                </b>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, odio.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Section -2 for salads -->
+  <!-- Healthy section starts -->
+  <div class="row healthy">
+    <div class="col text">
+      <div class="card-body m">
+        <h1 class="card-title my-5 mx-4 ">Healthy Evening</h1>
+
+        <p class="card-text mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur quod odit veniam
+          tempora architecto ea eaque, consequatur, quos, in repellendus corporis dicta nisi natus rerum! Voluptate et
+          amet eos distinctio?</p>
+        <button type="button" class="btn btn-success px-5 mx-3 my-4" style="border-radius:20px;">Read more</button>
+      </div>
+    </div>
+    <div class="col card-img">
+      <img src="/images/healthy.jpeg" class="img-fluid" alt="...">
+    </div>
+
+  </div>
+  <!-- healthy section ends -->
+ <!-- learn section starts  -->
+  
+<div class="container-learn">
+     <div class="text-center learn-text">
+          <h1 style="font-weight: 700;"> Learn Cooking online</h1>
+          <p>Some representative placeholder content for the first slide.</p>
+     </div>
+  <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <div class="carousel-inner">
+         <div class="carousel-item active" data-bs-interval="10000">
+          <div class="container text-center">
+             <div class="row text-center">
+                 <div class="col-4">
+                    <img src="/images/cooking1.jpeg" class=" d-block w-100 h-100 rounded-4" alt="...">
+                 </div>
+                 <div class="col-4">
+                   <img src="/images/cooking2.jpeg" class="d-block w-100 h-100 rounded-4" alt="...">
+                  </div>
+                 <div class="col-4">
+                   <img src="/images/cooking3.jpeg" class="d-block w-100 h-100 rounded-4" alt="...">
+                 </div>
+            </div>
+          </div>
+         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item " data-bs-interval="10000">
+            <div class="container text-center">
+              <div class="row text-center">
+                <div class="col-4">
+                  <img src="/images/learn4.jpeg" class=" d-block w-100 h-100 rounded-4" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="/images/learn5.jpeg" class="d-block w-100 h-100 rounded-4" alt="...">
+                </div>
+                <div class="col-4">
+                  <img src="/images/learn6.jpeg" class="d-block w-100 h-100 rounded-4" alt="...">
+                </div>
+              </div>
+            </div>
+          
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item " data-bs-interval="10000">
+              <div class="container text-center">
+                <div class="row text-center">
+                  <div class="col-4">
+                    <img src="/images/learn7.jpeg" class=" d-block w-100 h-100 rounded-4" alt="...">
+                  </div>
+                  <div class="col-4">
+                    <img src="/images/learn8.jpeg" class="d-block w-100 h-100 rounded-4" alt="...">
+                  </div>
+                  <div class="col-4">
+                    <img src="/images/learn9.jpeg" class="d-block w-100 h-100 rounded-4" alt="...">
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            </div>
+      </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button> 
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+      </button>
+     <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+     </div>
+   </div>
+    <div class="learn-btn">
+      <button type="button" class="btn btn-success px-5 mx-3 " style="border-radius:20px;">Read more</button>
+    </div>
+ </div>
+</div>
+<!-- Ice cream start  -->
+   <div class="row ice-cream">
+    <div class="col-6 ice-cream-text">
+      <div class="card-ice-cream" style="width: 18rem;">
+        <div class="card-body">
+          <h2 class="card-title">Our ice Cream</h2>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+           <p>Image from Freepik</p>
+        </div>
+        <button type="button" class="btn btn-success px-5 mx-3 " style="border-radius:20px;">Read more</button>
+      </div>
+   </div>
+    <div class="col-6 ice-cream-img"></div>
+    
+  </div>
+<!-- Ice cream end -->
+
+<!-- Fresh starts-->
+<div class="row fresh">
+  <div class="col-6">
+    <div class="card-fresh" style="width: 18rem;">
+      <div class="card-body">
+        <h3 class="card-title" style="color:green">100% fresh Food</h3>
+        <h2 class="card-subtitle mb-2 text-body-secondary" style="color:green"> Fresh Food</h2>
+        <h5 class="card-subtitle mb-2 text-body-secondary" style="color:green"> Name here</h5>
+        <div class="thirty"> 
+          <h1>30% off</h1>
+        </div>
+          <h3 class="card-title">Healthy Food</h3>
+         <p style="font-size:smaller;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, voluptatum!</p>
+           <h6>Image from Freepik</h6>
+        </div>
+    </div>
+  </div>
+  <div class="col-6 fresh-img">
+    <img src="/images/fresh.jpeg" class="img-fluid" alt="...">
+  </div>
+</div>
+<!-- fresh ends  -->
+
+<!-- Organic starts -->
+<div class="row">
+  <div class="col-4 organic-img">
+    <img src="images/organic.jpeg" class="img-fluid" alt="...">
+  </div>
+  <div class="col-4">
+    <div class="card organic" style="width: 25rem;">
+      <div class="card-body ">
+        <h1 class="card-title">100% Organic</h1>
+        <h1 class="card-title">Goodness</h1>
+        
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+        <button type="button" class="btn btn-success px-5 mx-3" style="border-radius:20px;">Read more</button>
+    
+      </div>
+      
+  </div>
+  <div class="col-4 organic-img1">
+   
+   </div>
+ 
+</div>
+  <!-- organic ends-->
+
+ <!-- subscribe starts -->
+ <div class="container-fluid subscribe">
+
+  <div class="card-subscribe" style="width: 35rem;">
+    <div class="card-body-subscribe">
+      <h1 class="card-title">Subcribe And</h1>
+      <h1 class="card-title">Follow Us</h1>
+      <p class="card-text"> Be part of the story and follow us on Twitter via @name and subscribe to the newsletter for news and updates about our workshops</p>
+      <input type="text" placeholder="Email" aria-label="Last name" class="form-control">
+      <button type="button" class="btn btn-success px-5 mx-3" style="border-radius:20px;">Subscribe</button>
+    </div>
+  </div>
+  
+</div>
+   
+ 
+    
+ <!-- subscribe ends -->  
+     
+    <footer>
+      <div class="card text-center">
+
+        <div class="card-body" style="background: black; color: aliceblue;">
+
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, debitis.</p>
+
+        </div>
+
+      </div>
+
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
